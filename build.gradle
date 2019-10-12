@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'com.sirah.tuto'
+version '1.0-SNAPSHOT'
+
+
+apply plugin: 'scala'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.scala-lang', name: 'scala-library', version: '2.11.11'
+}
