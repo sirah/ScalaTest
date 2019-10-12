@@ -1,4 +1,4 @@
 object Main extends  App {
-val x = 0
-  val y = 9
+val xz = 20
+  val yz = 2229
 }
