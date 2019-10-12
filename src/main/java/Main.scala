@@ -1,5 +1,6 @@
 object Main extends  App {
 
-  println("bismi lah")
+  println("bismi lah, first merge brothers")
+  println("first merge")
 
 }
